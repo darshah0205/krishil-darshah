@@ -16,6 +16,10 @@ app.use(cors());
 
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use("/api", router);
+// Express example
+app.get('/favicon.ico', (req, res) => {
+  res.status(404).send('Not Found');
+});
 
 // Connecting to Database
 connectDB();
