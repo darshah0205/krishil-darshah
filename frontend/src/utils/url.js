@@ -1,2 +1,2 @@
-export const url = "http://localhost:5000/api";
-export const pdfURL = "http://localhost:5000/uploads";
+export const url = "https://manmilaap-backend.vercel.app/api";
+export const pdfURL = "https://manmilaap-backend.vercel.app/uploads";
